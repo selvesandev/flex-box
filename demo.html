@@ -18,16 +18,43 @@
             padding: 30px;
             max-width: 600px;
             display: flex;
-            flex-flow: column wrap;/*this is a short had for using flex-direction and flex-wrap*/
+            flex-flow: row wrap; /*this is a short had for using flex-direction and flex-wrap*/
+            align-items: flex-start;
+            justify-content: center;
+            align-content: space-between;
         }
 
         .x {
-            min-height: 100px;
             background: yellow;
             margin: 15px;
         }
-        .three{
+
+        .one {
+            min-height: 100px;
+            order:3;
+        }
+
+        .two {
+            order: 0;
+        }
+
+        .five {
+            min-height: 100px;
+            order:1
+        }
+
+        .six {
+            min-height: 100px;
+            order: 5;
+        }
+
+        .four {
+            order:1;
+        }
+
+        .three {
             max-width: 400px;
+            flex: 0 1 auto;
         }
     </style>
 </head>
@@ -39,7 +66,7 @@
     <div class="three x">Flex Box Is</div>
     <div class="four x">Amazing</div>
     <div class="five x">CSS</div>
-    <div class="sixe x">Technology</div>
+    <div class="six x">Technology</div>
 </div>
 
 </body>
