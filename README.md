@@ -37,8 +37,12 @@ flex-flow: row wrap; //will wrap the content meaning if the parent width is decr
 
 flex-flow: row wrap-reverse; //will wrap the content in reversed order meaning the content will jump to the upper level.         
 
-flex-flow: column wrap; //will be arranged horizontally from left to right
+flex-flow: row wrap; //will be arranged horizontally from left to right
 
-flex-flow: column-reverse wrap; //will be arranged horizontally from right to left
+flex-flow: row-reverse wrap; //will be arranged horizontally from right to left
 
 ```
+
+
+![IMAGE](https://raw.githubusercontent.com/selvesandev/flex-box/master/axis.png)
+
